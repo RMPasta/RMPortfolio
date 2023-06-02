@@ -7,6 +7,20 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.resume-container {
+	margin-left: 160px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	text-align: center;
+}
+
+.open-window {
+	margin: 160px 0;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -3969,7 +3983,7 @@ input, select, textarea {
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-attachment: fixed;
-		background-position: center center;
+		background-position: top top;
 		background-repeat: no-repeat;
 		background-size: cover;
 		padding-top: 0;
